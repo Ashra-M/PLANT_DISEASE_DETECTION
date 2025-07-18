@@ -29,7 +29,8 @@ git clone https://github.com/Ashra-M/PLANT_DISEASE_DETECTION.git
 cd PLANT_DISEASE_DETECTION
 ```
 
-## Create & activate a virtual environment
+## 
+2. **Create & activate a virtual environment:**
 
 ```bash
 # Windows
@@ -37,12 +38,14 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-## Install dependencies:
+## 
+3. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the app:
+## 
+3. **Run the app:**
 ```bash
 streamlit run app.py 
 ```

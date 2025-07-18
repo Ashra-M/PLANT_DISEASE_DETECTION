@@ -100,6 +100,7 @@ streamlit run app.py
 ---
 
 ## 🗃️ Dataset
+
 **The model is trained using the PlantVillage Dataset, filtered to include only:**
 
   1. Tomato

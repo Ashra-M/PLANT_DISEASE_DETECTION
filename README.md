@@ -63,34 +63,22 @@ streamlit run app.py
 
 ---
 
-## 🧠 Model Overview
-The model is based on ResNet18, fine-tuned using the PlantVillage dataset filtered for the following:
-
-Tomato (multiple disease types + healthy)
-
-Potato (blight + healthy)
-
-Pepper (bell, healthy and diseased)
-
-Model was trained with class balancing and evaluated using accuracy and visual feedback (Grad-CAM).
-
----
 ## 📄 PDF Report Sample
 **When you click Download PDF Report, the app generates a downloadable file containing:**
 
-    ✅ Final top prediction (e.g., Tomato_Late_Blight)
-    📊 Class-wise confidence scores
-    🖼️ Uploaded image
-    🔥 Grad-CAM visualization
+- ✅ Final top prediction (e.g., Tomato_Late_Blight)
+- 📊 Class-wise confidence scores
+- 🖼️ Uploaded image
+- 🔥 Grad-CAM visualization
 
 ---
 
 ## 🧪 Future Improvements
    
-     Add support for more plant species
-     Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
-     Integrate camera input for real-time detection
-     Optimize model for mobile devices
+     -Add support for more plant species
+     -Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
+     -Integrate camera input for real-time detection
+     -Optimize model for mobile devices
 
 ---
 
@@ -99,9 +87,13 @@ Model was trained with class balancing and evaluated using accuracy and visual f
 **Main libraries used:**
 
      torch, torchvision – model and inference
+     
      opencv-python – Grad-CAM and image handling
+     
      streamlit – web interface
+     
      fpdf – PDF generation
+     
      Pillow, numpy, matplotlib
 > See requirements.txt for full list.
 

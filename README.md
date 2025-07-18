@@ -50,6 +50,7 @@ pip install -r requirements.txt
 streamlit run app.py 
 ```
 ---
+
  ## 🖼️ Sample Interface
 
 | [Streamlit Page](assets/PlantDetectionPage.png) |
@@ -61,6 +62,7 @@ streamlit run app.py
 
 
 ---
+
 ## 🧠 Model Overview
 The model is based on ResNet18, fine-tuned using the PlantVillage dataset filtered for the following:
 
@@ -83,6 +85,7 @@ When you click Download PDF Report, the app generates a downloadable file contai
 🖼️ Uploaded image
 
 🔥 Grad-CAM visualization
+
 ---
 
 ## 🧪 Future Improvements
@@ -93,7 +96,9 @@ Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
 Integrate camera input for real-time detection
 
 Optimize model for mobile devices
+
 ---
+
 ## 📦 Dependencies
 Main libraries used:
 
@@ -108,7 +113,9 @@ fpdf – PDF generation
 Pillow, numpy, matplotlib
 
 See requirements.txt for full list.
+
 ---
+
 ## 🗃️ Dataset
 The model is trained using the PlantVillage Dataset, filtered to include only:
 
@@ -119,6 +126,10 @@ Potato
 Pepper
 
 (You can modify dataset/ with your own data for other plants.)
+
 ---
+
 ## 📜 License
 This project is licensed under the MIT License. See LICENSE file for full details.
+
+---

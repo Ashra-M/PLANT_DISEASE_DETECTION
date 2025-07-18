@@ -66,7 +66,7 @@ streamlit run app.py
 ## 📄 PDF Report Sample
 **When you click Download PDF Report, the app generates a downloadable file containing:**
 
-- ✅ Final top prediction (e.g., Tomato_Late_Blight)
+- ✅ Final top prediction (e.g., Potato_Target_Spot)
 - 📊 Class-wise confidence scores
 - 🖼️ Uploaded image
 - 🔥 Grad-CAM visualization

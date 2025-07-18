@@ -54,6 +54,7 @@ streamlit run app.py
 
 | [Streamlit Page](assets/PlantDetectionPage.png) |
 
+
 | Uploaded Image                          | Grad-CAM Output                        |
 |-----------------------------------------|----------------------------------------|
 | ![Input Image](assets/input_sample.png) | ![Grad-CAM](assets/gradcam_sample.png) |

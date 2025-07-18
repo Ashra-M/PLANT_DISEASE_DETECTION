@@ -76,7 +76,7 @@ Model was trained with class balancing and evaluated using accuracy and visual f
 
 ---
 ## 📄 PDF Report Sample
-When you click Download PDF Report, the app generates a downloadable file containing:
+**When you click Download PDF Report, the app generates a downloadable file containing:**
 
     ✅ Final top prediction (e.g., Tomato_Late_Blight)
     📊 Class-wise confidence scores
@@ -87,34 +87,33 @@ When you click Download PDF Report, the app generates a downloadable file contai
 
 ## 🧪 Future Improvements
    
-    * Add support for more plant species
-    * Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
-    * Integrate camera input for real-time detection
-    * Optimize model for mobile devices
+     Add support for more plant species
+     Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
+     Integrate camera input for real-time detection
+     Optimize model for mobile devices
 
 ---
 
 ## 📦 Dependencies
 
-Main libraries used:
-    + torch, torchvision – model and inference
-    + opencv-python – Grad-CAM and image handling
-    + streamlit – web interface
-    + fpdf – PDF generation
-    + Pillow, numpy, matplotlib
-See requirements.txt for full list.
+**Main libraries used:**
+
+     torch, torchvision – model and inference
+     opencv-python – Grad-CAM and image handling
+     streamlit – web interface
+     fpdf – PDF generation
+     Pillow, numpy, matplotlib
+> See requirements.txt for full list.
 
 ---
 
 ## 🗃️ Dataset
-The model is trained using the PlantVillage Dataset, filtered to include only:
+**The model is trained using the PlantVillage Dataset, filtered to include only:**
 
-#^  Tomato
-
-#^  Potato
-
-#^  Pepper
-You can modify dataset/ with your own data for other plants.
+  1. Tomato
+  2. Potato
+  3. Pepper
+>You can modify dataset/ with your own data for other plants.
 
 ---
 

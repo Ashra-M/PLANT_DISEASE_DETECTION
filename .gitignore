@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore model weights
+*.pth
+
+# Ignore temporary and output files
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.pdf
+
+# Ignore Python cache
+__pycache__/
+*.pyc

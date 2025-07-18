@@ -95,7 +95,7 @@ streamlit run app.py
      fpdf – PDF generation
      
      Pillow, numpy, matplotlib
-> See requirements.txt for full list.
+> See [requirements.txt](requirements.txt) for full list.
 
 ---
 
@@ -110,6 +110,6 @@ streamlit run app.py
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See LICENSE file for full details.
+This project is licensed under the [MIT License](LICENSE). See LICENSE file for full details.
 
 ---

@@ -53,7 +53,7 @@ streamlit run app.py
 
  ## 🖼️ Sample Interface
 
-| [Streamlit Page](assets/PlantDetectionPage.png) |
+| ![Streamlit Page](assets/PlantDetectionPage.png) |
 
 
 | Uploaded Image                          | Grad-CAM Output                        |

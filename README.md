@@ -6,24 +6,10 @@
 
 A web-based plant disease detection system using **ResNet18** and **Grad-CAM**, built with **Streamlit**. Upload a leaf image to detect possible diseases in **Tomato**, **Potato**, or **Pepper** plants.
 
-> ⚠️ Currently supports only **Tomato**, **Potato**, and **Pepper** based on the dataset used.
+> Currently supports only **Tomato**, **Potato**, and **Pepper** based on the dataset used.
 
 ---
 
-## 📁 Project Structure
-
-PLANT_DISEASE_DETECTION/
-│
-├── app.py 
-├── resnet_model.py 
-├── best_model.pth 
-├── requirements.txt 
-├── README.md 
-├── .gitignore 
-├── assets/ 
-└── dataset/ 
-
----
 
 ## 🚀 Features
 
@@ -41,20 +27,27 @@ PLANT_DISEASE_DETECTION/
 ```bash
 git clone https://github.com/Ashra-M/PLANT_DISEASE_DETECTION.git
 cd PLANT_DISEASE_DETECTION
+```
 
-Create & activate a virtual environment
+## Create & activate a virtual environment
+
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
+```
 
-Install dependencies:
+## Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-Run the app:
+## Run the app:
+```bash
 streamlit run app.py 
-
+```
 ---
-## 🖼️ Sample Interface
+ ## 🖼️ Sample Interface
 
 | [Streamlit Page](assets/PlantDetectionPage.png)|
 
@@ -64,7 +57,7 @@ streamlit run app.py
 
 
 ---
-🧠 Model Overview
+## 🧠 Model Overview
 The model is based on ResNet18, fine-tuned using the PlantVillage dataset filtered for the following:
 
 Tomato (multiple disease types + healthy)
@@ -76,7 +69,7 @@ Pepper (bell, healthy and diseased)
 Model was trained with class balancing and evaluated using accuracy and visual feedback (Grad-CAM).
 
 ---
-📄 PDF Report Sample
+## 📄 PDF Report Sample
 When you click Download PDF Report, the app generates a downloadable file containing:
 
 ✅ Final top prediction (e.g., Tomato_Late_Blight)
@@ -88,7 +81,7 @@ When you click Download PDF Report, the app generates a downloadable file contai
 🔥 Grad-CAM visualization
 ---
 
-🧪 Future Improvements
+## 🧪 Future Improvements
 Add support for more plant species
 
 Deploy to cloud (HuggingFace, Streamlit Cloud, etc.)
@@ -97,7 +90,7 @@ Integrate camera input for real-time detection
 
 Optimize model for mobile devices
 ---
-📦 Dependencies
+## 📦 Dependencies
 Main libraries used:
 
 torch, torchvision – model and inference
@@ -112,7 +105,7 @@ Pillow, numpy, matplotlib
 
 See requirements.txt for full list.
 ---
-🗃️ Dataset
+## 🗃️ Dataset
 The model is trained using the PlantVillage Dataset, filtered to include only:
 
 Tomato
@@ -123,5 +116,5 @@ Pepper
 
 (You can modify dataset/ with your own data for other plants.)
 ---
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See LICENSE file for full details.

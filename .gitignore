@@ -7,10 +7,21 @@ venv/
 # Ignore temporary and output files
 *.jpg
 *.jpeg
-*.png
 *.zip
 *.pdf
+
+# Ignore all PNGs by default
+*.png
+
+# But don't ignore assets folder
+!assets/
+!assets/*.png
+
 
 # Ignore Python cache
 __pycache__/
 *.pyc
+
+# Ignore training scripts
+train.py
+predict.py
